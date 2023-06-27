@@ -1,0 +1,17 @@
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install --update
+
+installing kubectl
+https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
+
+installing eksctl
+https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html
+
+aws sts get-caller-identity
+
+aws eks update-kubeconfig --region region-code --name my-cluster
+
+
+
+
